@@ -85,22 +85,7 @@ public class TestSuit {
         System.out.println();
         System.out.println("My Actual email is:" + actualMassageWillAppearOnPage);
         Assert.assertEquals(actualMassageWillAppearOnPage, expectedEmailShownOnWebPage, "Can't Send Email without Registration");
-//        //click on Product
-////        clickOnElement(By.linkText("Apple MacBook Pro 13-inch"));
-//        clickOnElement(By.xpath("//div[@class='product-grid home-page-product-grid']/div[2]/div[2]/div[1]/div[2]/div[3]/div[2]/button[1]"));
-//        //Click on Email a friend button
-//        clickOnElement(By.className("email-a-friend"));
-//        //friend Email id
-//        typeText(By.className("friend-email"), "asd@" + timestamp() + "gmail.com");
-//        //Your Email id
-//        typeText(By.className("your-email"), "pdf@" + timestamp() + "gmail.com");
-//        //Personal Message
-//        typeText(By.id("PersonalMessage"), "please check this mail");
-//        //Click on send Button
-//        clickOnElement(By.name("send-email"));
-//        String actualMassageWillAppearOnPage = getTextFromElement(By.xpath("//li[contains(text(),'Only registered customers can use email a friend f')]"));
-//        System.out.println("My Actual email is:" + actualMassageWillAppearOnPage);
-//        Assert.assertEquals(actualMassageWillAppearOnPage, expectedEmailShownOnWebPage, "Can't Send Email without Registration");
+
     }
 
     @Test
